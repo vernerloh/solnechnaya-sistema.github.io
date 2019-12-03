@@ -1,0 +1,230 @@
+html{
+	background:url("C://Users/a/Desktop/assets/css/img/fon.png");
+	background-attachment: fixed;
+	background-size: 100%;
+	padding:1% 4% 1% 4%;
+    width:1200px;
+    font-size:1.2vw;
+}
+
+body{
+	font-family: "Comic Sans MS", Arial, Veranda;
+	color:white;
+    background: rgba(169, 169, 169, 0.3);
+    margin:1% -1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+}
+
+header{
+	width: 70%;
+	background: rgba(0, 0, 0, 0.3);
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	padding: 2% 4% 2% 4%;
+	text-align: center;
+	margin:0 auto;
+	font-size: 2.3vw;
+}
+
+a{
+	color:white;
+	text-decoration:none;
+}
+
+ul{
+	margin:2% auto;
+}
+
+ul li{
+	list-style: none;
+	position: relative;
+} 
+
+ul li a{
+	display: block;
+}
+
+li:hover ul{
+	z-index: 10;
+	display: block;
+}
+
+li ul {
+	display: none;
+	left: 86%;
+	position: absolute;
+	top: 0;
+}
+
+.punkt{
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+	padding: 10% 40% 10% 40%;
+	margin:-5% -3% -5% -3%;
+	background:rgb(36, 30, 53);
+	text-align:center;
+	font-size:1.6vw;
+	width:100%;
+}
+
+li.active{
+	display: inline-block;
+	padding: 1% 1% 1% 1%;
+	margin: -0.2% -0.2% -0.2% -0.2%;
+	background: rgba(0, 0, 0, 0.3);
+	text-align:center;
+	font-size:1.6vw;
+	width:20%;
+	border-right: 3px solid white;
+}
+
+.search{
+	display: inline-block;
+	margin:-0.2% -0.2% -0.2% -0.2%;
+	padding: 1% 1% 1% 1%;
+	width:27%;
+	background: rgba(0, 0, 0, 0.3);
+	text-align:center;
+}
+
+.search_form{
+	margin-top:1.7%;
+	margin-bottom: -1%;
+}
+
+button{
+	background-color: rgba(169, 169, 169, 0.3);
+	color:white;
+	width: 30%;
+	border-radius: 10px;
+	border: 1.5px solid white;
+	text-align: center;
+	padding:1% 1% 1% 1%;
+	font-size:1.1vw;
+}
+
+.block-search{
+	font-size:1.1vw;
+	background-color: rgba(169, 169, 169, 0.3);
+	color:white;
+	width: 60%;
+	border-radius: 10px;
+	border: 1px solid white;
+	text-align: left;
+	padding:1.5% 1% 1.5% 1%;
+	margin-top: -2%;
+} 
+
+div.img1{
+	display: inline-block;
+}
+
+.menu{
+	width:95%;
+}
+
+.q{
+	display: inline-block;
+	background: rgba(169, 169, 169, 0.3);
+	width: 92.5%;
+	margin: 2% 2% 2% 2%;
+	padding: 1% 2% 1% 2%;
+}
+
+.q1{
+	font-size: 1.7vw;
+	width:98.5%;
+	padding:2% 0.5% 2% 0.5%;
+	margin:1% 0 1% 0;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.3);
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+}
+
+.q1_1{
+	width:96.5%;
+	font-size: 1.3vw;
+	margin:2% 0 2% 0;
+	background: rgba(0, 0, 0, 0.3);
+	border-left: 3px dashed white;
+	padding:1% 1.5% 1% 1.5%;
+}
+
+.q1_2{
+	width:53%;
+	margin:2.5% 0 0 0;
+	background: rgba(0, 0, 0, 0.3);
+	padding:1% 1.5% 1% 1.5%;
+}
+
+.foto1{
+	float:right;
+	margin: 0.4% 1% 0.2% 0;
+	border:1px solid #CCC;
+	padding:0.6% 0.6% 0.6% 0.6%;
+	width: 40%;
+}
+
+.q3_1{
+	float:left;
+	background: rgba(0, 0, 0, 0.3);
+	text-align: center;
+	margin: 1% 0.5%;
+	padding:1% 1% 1% 1%;
+	width: 47%;
+}
+
+.q3_2{
+	float:right;
+	background: rgba(0, 0, 0, 0.3);
+	text-align: center;
+	margin: 1% 0.5% 1% 0.5%;
+	padding:1% 1% 1% 1%;
+	width: 47%;
+}
+
+.q3_3{
+	float:left;
+	margin:1.5% 0.5% 1.5% 0.5%;
+	border:1px solid #CCC;
+	padding:0.6% 0.6% 0.6% 0.6%;
+	width: 47%;
+}
+
+.q3_4{
+	float:right;
+	margin: 1.5% 0.5% 1.5% 0.5%;
+	border:1px solid #CCC;
+	padding:0.6% 0.6% 0.6% 0.6%;
+	width: 47%;
+}
+
+.q4{
+	width:97%;
+	margin: 2.5% 0 2% 0;
+	background: rgba(0, 0, 0, 0.3);
+	padding:0.5% 1.5% 0.5% 1.5%;
+}
+
+footer{
+	border-top: 3px white solid;
+	margin:-2% -8.1% -7% -6.7%;
+	padding: 0.5% 0.5% 0.5% 0.5%;
+	background: rgb(36, 30, 53);
+	text-align: center;
+}
+
+
+.contacty{
+	text-align:center;
+	color:rgba(255, 255, 255, 0.7);
+}
+
+.social-networks{
+	display: inline-block;
+}
+
+.sity{
+	margin:-1% 0 0 0;
+}
